@@ -29,18 +29,5 @@
         }
       ]
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/articles",
-      "destination": "/articles",
-      "permanent": false
-    }
   ]
 }
