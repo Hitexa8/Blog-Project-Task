@@ -188,7 +188,7 @@ app.use((req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`\n🚀 Backend server running on http://localhost:${PORT}`);
+  console.log(`\n Backend server running on http://localhost:${PORT}`);
 });
 
 module.exports = app;
