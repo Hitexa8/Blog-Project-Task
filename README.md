@@ -2,11 +2,11 @@
 
 A full-stack blog application with Next.js frontend and Node.js/Express backend, MongoDB database, and article editing capabilities.
 
-## 🚀 Live URLs
+## Live URL
 
  https://hitexa-blog-project-task.vercel.app
 
-## 📋 Features
+## Features
 
 - **Frontend**: Next.js 16 with React 19
 - **Backend**: Express.js with MongoDB
@@ -16,7 +16,7 @@ A full-stack blog application with Next.js frontend and Node.js/Express backend,
 - **CORS Enabled**: Secure API access from frontend
 - **Environment Configuration**: Easy deployment setup
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - Next.js 16.1.6
@@ -196,29 +196,6 @@ Blog-Project-Task/
 │
 └── package.json              # Root package.json (optional)
 ```
-
-## 🔧 Troubleshooting
-
-### Backend won't start
-- Ensure MongoDB is running
-- Check if port 5000 is available
-- Verify `MONGODB_URI` in `.env.local`
-
-### Frontend can't connect to backend
-- Check `NEXT_PUBLIC_API_URL` in `.env.local`
-- Ensure backend is running
-- Verify CORS is enabled on backend
-- Check browser console for error messages
-
-### Too many redirects on Vercel
-- Clear browser cookies
-- Ensure `vercel.json` doesn't have problematic rewrites
-- Check that environment variables are set correctly
-
-### Articles not loading
-- Verify backend is running and accessible
-- Check network tab in browser DevTools
-- Ensure `NEXT_PUBLIC_API_URL` points to correct backend
 
 ## 📦 Deployment
 
