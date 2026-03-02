@@ -106,7 +106,7 @@ npm run build
 npm start
 ```
 
-## 🚀 Running Both Locally
+## Running Both Locally
 
 ### Option 1: Two Terminal Windows
 
@@ -258,7 +258,3 @@ Blog-Project-Task/
 ## 👤 Author
 
 Hitexa8
-
-## 📄 License
-
-ISC
