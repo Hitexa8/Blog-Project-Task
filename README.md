@@ -4,9 +4,7 @@ A full-stack blog application with Next.js frontend and Node.js/Express backend,
 
 ## 🚀 Live URLs
 
-- **Frontend (Vercel)**: https://hitexa-blog-project-task.vercel.app
-- **Backend (Render)**: https://blog-backend-iiw3.onrender.com
-- **GitHub Repository**: https://github.com/Hitexa8/Blog-Project-Task
+ https://hitexa-blog-project-task.vercel.app
 
 ## 📋 Features
 
@@ -62,7 +60,7 @@ FRONTEND_URL=http://localhost:3000
 ```env
 MONGODB_URI=mongodb+srv://[username]:[password]@cluster.mongodb.net/blog_db
 PORT=11000
-FRONTEND_URL=https://hitexa-blog-project-task.vercel.app
+FRONTEND_URL=https://your-vercel-url.vercel.app
 ```
 
 5. **Start the backend**:
@@ -163,7 +161,7 @@ FRONTEND_URL=http://localhost:3000 (local) or https://your-vercel-url.vercel.app
 
 ### Frontend (`.env.local` or Vercel environment)
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:5000 (local) or https://blog-backend-iiw3.onrender.com (production)
+NEXT_PUBLIC_API_URL=http://localhost:5000 (local) or https://your-render-url.onrender.com (production)
 ```
 
 ## 📂 Project Structure
